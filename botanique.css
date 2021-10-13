@@ -1,0 +1,421 @@
+/* VALENTIN HEADER  DEBUT */
+
+body {
+    width: 100%;
+    background-image: url('fondfleur.jpg');
+    padding:0px;
+    margin:0px;
+}
+
+header {
+    position: absolute;
+    width:100%;
+    height:150px;
+    background: linear-gradient(90deg, white, rgb(178, 211, 178), rgb(65, 165, 65) );
+    margin-top: -8px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+.headerbox {
+    display: flex;
+    justify-content: center; 
+    flex-direction: row;
+    text-decoration: none;
+    display: inline-block;
+    position:absolute;
+    margin-top: -15px;
+  }
+
+  .lien {
+      text-align: center;
+      font-family: 'crimson text';
+      font-weight: 200;
+      color: darkslategray;
+      font-size: 27px;
+      text-decoration: none;
+      font-style: italic; 
+  }
+
+  #headerboxes {
+    padding-left: 65px;
+    display: inline-block;
+    justify-content: center;
+}
+
+
+  /* VALENTIN HEADER FIN */
+
+ /* THOMAS FOOTER DEBUT  A*/
+  
+
+ footer {
+    position:absolute;
+    width: 100%;
+    padding-top:50px;
+    height: 250px;
+    background-image: url('texture-footer.jpg');
+    text-align: center;
+    justify-content: space-around;
+    left: 0;
+    right: 0;
+    border: 1px darkgreen solid;
+    border-bottom: 0;
+  }
+
+.foot_blocs{
+    display: inline-block;
+    height: 100%;
+    width: 400px;
+    
+}
+
+.t_logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 45px;
+}
+
+.fbtitle {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(63, 70, 53);
+    font-family: 'crimson text';
+      font-weight: 200;
+      color: #FCECD4;
+      font-size: 25px;
+    }
+
+#footliens {
+    font-weight: 200;
+      color: white;
+      font-size: 18px;
+      text-decoration: none;
+}
+
+
+ /* FOOTER FIN*/
+
+main {
+        position: static;
+        text-align: center;
+        width: 80%;
+        margin: 0% auto;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-left: darkgreen 9px;
+        border-right: darkgreen 9px;
+        border-style: double;
+        border-bottom: white;
+        border-top: white;
+        padding-top: 180px;
+        background-image: url('texture\ fond\ blanc.jpg');
+        }
+        
+
+        h1 {
+            font-size: 400%;
+            text-align: right;
+        }
+
+
+
+   
+
+
+
+
+ /* CSS FLEURS LEGUME ARBUSTE ET PLANTES DEBUT*/
+
+
+
+
+ .fleursbox {
+    display:flex;
+    height: 100%;
+    
+    
+}
+.box4saisons {
+    width: 15%;
+    position: fixed;
+    height: 100px;
+    margin-top: 20px;
+    top: 170px;
+    Padding-bottom: 50px;
+    padding-top:2px;
+    background-color:blanchedalmond;
+    box-shadow: 10px 5px 5px gray;
+    border: solid 2px rgb(98,136, 98);
+    border-radius: 20%;
+
+    
+}
+
+.lien2 {
+    text-align: center;
+    font-family: 'crimson text';
+    font-weight: 200;
+    color: darkslategray;
+    font-size: 20px;
+    text-decoration: none;
+    font-style: italic; 
+}
+
+
+
+.introfleurs {
+    font-size: 150%;
+    margin-bottom: 30px;
+    font-style:italic;
+    width:900px;
+    text-align: justify;
+    padding-left: 300px;
+    padding-right: 0px;
+    
+}
+
+
+.fsaisons {
+    text-align: center;
+    align-content: center;
+    width: 75%;
+    position: relative;
+    left: 250px;
+    right: 50px;
+    padding-bottom: 100px;
+    
+
+}
+
+
+
+
+
+.psaisons {
+    font-size: 250%;
+    margin-top: 50px;
+    margin-bottom:100px;
+
+
+
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom:0px;
+   
+}
+
+h3 {
+    margin-top: 200px;
+    margin-bottom: 40px;
+    
+}
+
+#titreboxsaison {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pcorps {
+    background-color:blanchedalmond;
+    box-shadow: 10px 5px 5px gray;
+    border: solid 2px rgb(98,136, 98);
+    border-radius: 20%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    opacity: 80%;
+    
+    
+}
+
+.ptitle {
+    font-size: 200%;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.pcorps {
+    font-size: 39%;
+    text-align: justify;
+}
+
+
+.psaison{
+    display: flex;
+    flex-direction: row;
+    
+
+
+
+}
+
+.flph {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.img_fleur {
+    width: 392px;
+    height: 221px;
+    
+    
+}
+
+ /* CSS FLEURS LEGUME ARBUSTE ET PLANTES FIN */
+
+ /* PAGE QUI SOMMES NOUS */
+  
+ .presentation_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 80%;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-left: darkgreen 9px;
+    border-right: darkgreen 9px;
+    border-style: double;
+    border-bottom: white;
+    border-top: white;
+    padding-top: 225px;
+    background-image: url('texture%20fond%20blanc.jpg');
+    }
+
+#presentation_titre {
+
+    color: black;
+    font-family: 'crimson text';
+    font-weight: 600;
+    font-size: 40px;
+    font-style: normal;
+    border: darkslategray 3px solid;
+    width: 1100px;
+    height: 105px;
+    border-radius: 50px;
+    padding-top: 37px;
+  }
+
+.presentation_paragraphe {
+    font-family: 'scheherazade new';
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+/* QUI SOMMES NOUS FIN CSS*/
+
+/* PAGE ACCUEIL */
+
+
+.accueil_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1800px;
+    text-align: center;
+    width: 80%;
+    margin: 0% auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-left: darkgreen 9px;
+    border-right: darkgreen 9px;
+    border-style: double;
+    border-bottom: white;
+    border-top: white;
+    background-image: url('texture%20fond%20blanc.jpg');
+    padding-top: 130px;
+}
+
+#carroussel {
+    width: 640px;
+    overflow: hidden;
+    padding-bottom: 60px;
+}
+
+.imgnature {
+    display: flex;
+    animation-duration: 25s;
+    animation-name: carrousselimg;
+    animation-iteration-count: infinite ;
+}
+
+@keyframes carrousselimg {
+    
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-640px);
+    }
+
+    40% {
+        transform: translateX(-1280px);
+    }
+
+    60% {
+        transform: translateX(-1920px);
+    }
+
+    80% {
+        transform: translateX(-2560px)
+    }
+    
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+  #accueil_titre {
+
+    color: black;
+    font-family: 'crimson text';
+    font-weight: 600;
+    font-size: 40px;
+    font-style: normal;
+    border: darkslategray 3px solid;
+    width: 1100px;
+    height: 105px;
+    border-radius: 50px;
+    padding-top: 37px;
+  }
+
+  .accueil_phrase1 {
+      font-family: 'scheherazade new';
+      font-size: 23px;
+      padding-top: 20px;
+      padding-bottom: 80px;
+  }
+
+  .accueil_paragraphe {
+      font-family: 'scheherazade new';
+      font-size: 20px;
+      padding-bottom: -100px;
+  }
+  
+  #accueil_fin {
+      font-family: 'crimson text';
+      font-size: 25px;
+      color: darkgreen;
+
+  }
+
+/* FIN CSS ACCUEIL */
+
+
+
